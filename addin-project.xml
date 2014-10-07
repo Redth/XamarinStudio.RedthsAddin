@@ -1,0 +1,7 @@
+<AddinProject appVersion="5.0">
+    <Project platforms="Linux Win32 Mac">
+        <AddinFile>RedthAddin/bin/Debug/RedthAddin.dll</AddinFile>
+        <BuildFile>RedthAddin.sln</BuildFile>
+        <BuildConfiguration>Debug</BuildConfiguration>
+    </Project>
+</AddinProject>

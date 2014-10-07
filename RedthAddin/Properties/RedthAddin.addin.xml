@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Addin name="Redth's Addins" id="RedthAddin" namespace="RedthAddin" author="Jon Dick" copyright="Jon Dick" description="Redth's Addins.  Extensions for MonoDevelop/Xamarin Studio to improve productivity.  Nuke Bin/Obj folders quickly deletes your project's Intermediate Output path and Build output paths (especially useful for Android development)" category="IDE extensions" url="http://redth.codes" version="1.0" flags="None">
+	<Runtime>
+		<Import assembly="RedthAddin.dll" />
+	</Runtime>
+	<Dependencies>
+		<Addin id="::MonoDevelop.Core" version="5.0" />
+		<Addin id="::MonoDevelop.Ide" version="5.0" />
+		<Addin id="::MonoDevelop.DesignerSupport" version="5.0" />
+		<Addin id="::MonoDevelop.SourceEditor2" version="5.0" />
+	</Dependencies>
+	<Extension path="/MonoDevelop/Ide/Commands/Edit">
+		<Command id="RedthAddin.ObliterateOutput" _label="Obliterate Output Paths" _description="Nuke's your IntermediateOutputDirectory and OutputDirectory to completely clean out your solution/project" defaultHandler="RedthAddin.ObliterateOutputCommandHandler" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/ContextMenu/ProjectPad">
+		<Condition id="ItemType" value="Project|Solution">
+			<CommandItem id="RedthAddin.ObliterateOutput" insertafter="MonoDevelop.Ide.Commands.ProjectCommands.Clean" insertbefore="MonoDevelop.Ide.Commands.ProjectCommands.Unload" />
+		</Condition>
+	</Extension>
+</Addin>
