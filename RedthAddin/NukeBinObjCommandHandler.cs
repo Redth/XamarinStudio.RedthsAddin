@@ -1,7 +1,6 @@
 ﻿using System;
 using MonoDevelop.Components.Commands;
 using MonoDevelop.Ide;
-using Mono.TextEditor;
 using MonoDevelop.Ide.Gui.Content;
 using RedthAddin.Processors;
 using MonoDevelop.Projects;
