@@ -2,7 +2,6 @@
 using MonoDevelop.Components.Commands;
 using MonoDevelop.Ide;
 using MonoDevelop.Ide.Gui.Content;
-using RedthAddin.Processors;
 using MonoDevelop.Projects;
 using MonoDevelop.Ide.Gui;
 

@@ -47,7 +47,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="gtk-gui\generated.cs" />
     <Compile Include="Dialogs\VersionChangerDialog.cs" />
-    <Compile Include="Processors\SolutionProcessor.cs" />
     <Compile Include="NukeBinObjCommandHandler.cs" />
     <Compile Include="gtk-gui\RedthAddin.Dialogs.VersionChangerDialog.cs" />
     <Compile Include="EditProjectFileCommandHandler.cs" />
@@ -61,7 +60,6 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="Dialogs\" />
-    <Folder Include="Processors\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
