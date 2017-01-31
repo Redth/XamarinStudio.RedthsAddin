@@ -16,6 +16,34 @@ namespace RedthAddin
             IdeApp.OpenFiles (new [] {
                 new FileOpenInformation (item.Files[0].FilePath, item.Files[0].Project)
             });
+
+
+			//var userp = item.UserProperties;
+			//var pp = item.ProjectProperties.GetProperties();
+
+			//var pol = item.Policies.DirectGetAll ();
+
+			//foreach (var po in pol)
+			//{
+			//	if (po.PolicyType == typeof(TextStylePolicy))
+			//	{
+			//		var scope = po.Scope;
+			//		var tsp = po.Policy as TextStylePolicy;
+
+			//		if (tsp.TabsToSpaces)
+			//		{
+			//			Console.WriteLine("TABS TO SPACES");
+			//		}
+			//	}
+			//}
+			//foreach (var p in pp)
+			//{
+			//	Console.WriteLine(p.Name + " : " + p.Value);
+
+
+			//}
+			//Console.WriteLine(pp);
+
         }
 
         protected override void Update (CommandInfo info)
