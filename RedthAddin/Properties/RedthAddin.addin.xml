@@ -2,7 +2,7 @@
 <Addin 
   name="Redth's Addins"
   id="RedthAddin"
-  version="1.0.8"
+  version="1.0.9"
   namespace="RedthAddin"
   author="Jon Dick"
   copyright="Jon Dick"
