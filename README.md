@@ -9,3 +9,4 @@ The plugin currently provides the following extra functions
 
 
 
+![image](https://github.com/user-attachments/assets/8d57395e-f36b-4807-ae6d-39c472e390d5)
